@@ -1,0 +1,16 @@
+body {
+  display: grid;
+  /* grid-template-columns: 15em 15em 15em; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: min-content auto min-content;
+}
+header,
+footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+html,
+body {
+  height: 100%;
+}
