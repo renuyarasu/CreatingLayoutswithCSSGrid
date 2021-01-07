@@ -1,0 +1,21 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: #07038c;
+  margin: 0;
+  padding: 0;
+}
+.grid-item,
+header,
+main,
+nav,
+aside,
+footer {
+  background-color: #044bd9;
+  color: #fff;
+  border: 1px solid #377eff;
+}
