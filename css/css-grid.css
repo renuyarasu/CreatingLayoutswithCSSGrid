@@ -1,16 +1,22 @@
 body {
+  margin: 1em;
   display: grid;
-  /* grid-template-columns: 15em 15em 15em; */
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: min-content auto min-content;
+  grid: min-content / repeat(12, 1fr);
+  grid-gap: 1em;
+}
+header {
+  grid-column: 1/12;
 }
 header,
 footer {
-  grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column: 1 /13;
 }
 
-html,
-body {
-  height: 100%;
+aside,
+nav {
+  grid-column: 1/5;
+}
+main {
+  grid-column: 5/13;
+  grid-row: 2/4;
 }

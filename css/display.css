@@ -8,14 +8,16 @@ body {
   background-color: #07038c;
   margin: 0;
   padding: 0;
+  color: #fff;
+  height: 100%;
 }
 .grid-item,
 header,
 main,
 nav,
 aside,
+article,
 footer {
   background-color: #044bd9;
-  color: #fff;
   border: 1px solid #377eff;
 }
